@@ -3,7 +3,7 @@ Scans and catches callbacks of systems that are impacted by Log4J Log4Shell vuln
 
 *Very Beta Warning!* :)
 
-![Alt text](extras/log4shellscanner.png?raw=true "Log4Shell Scanner Output")
+![Alt text](https://raw.githubusercontent.com/mwarnerblu/Log4ShellScanner/main/extras/log4shellscanner_output.png "Log4Shell Scanner Output")
 
 In an effort to simplify the annoying effort of figuring out what actually has vulnerable log4j, I put together a scanner which attempts to pollute X-Api-Version, User-Agent, and Authentication headers. In my testing I'm able to get back vulnerable servers however this likely need additional expansion as new methods of injection are realized.
 
